@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("bg-img-4.jpg"); 
+ 
+background-size: cover; 
+background-position: center center; 
+background-attachment: fixed; 
+height: 100vh; 
+display: flex;
+flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #084b2d;
+  color: white;
+  padding: 10px 20px;
+}
+
+
+
+/* Styling for navigation tabs */
+.tab {
+color: white;
+text-decoration: none;
+font-size: 16px;
+padding: 4px;
+border-radius: 5px;
+transition: all 0.3s ease;
+}
+
+/* Hover effect: Change background color and text color on hover */
+.tab:hover {
+background-color: rgb(47, 184, 2); /* Green hover background */
+color: black; /* Change text color */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* You can adjust the size */
+  height: auto;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.company-name {
+  margin-left: 80px;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+}
+
+.company-name :hover{
+  
+  color: rgb(47, 184, 2);
+  transition: .3s;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+.tab {
+  color: white;
+  text-decoration:none;
+  font-size: 16px;
+  padding: 4px;
+  transition: background-color 0.3s;
+}
+
+
+/* hero section */
+.hero-section{
+  background-image: url(contactBackground.jpg);
+  background-size: cover;
+  height: 1100px;
+}
+
+.hero-content1 {
+display: flex;
+justify-content: center;
+padding-top: 100px;
+font-weight: 800;
+font-size: 60px;
+font-display: block;
+height: 50px;
+color: rgba(12, 33, 9,0.7);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-content2 {
+display: flex;
+justify-content: center;
+padding-top: 110px;
+font-weight: bolder;
+font-size: 40px;
+font-display: block;
+height: 40px;
+color:rgba(24, 64, 8, 0.7);
+margin-bottom: 80px;
+letter-spacing: .8px;
+}
+.Contact-container{
+padding: 60px;
+background-color: rgba(8, 100, 103, 0.2);
+border-radius: 20px;
+margin: 20px auto;
+width : 70%;
+max-width: 600px;
+margin-bottom: 10px;
+
+}
+
+.Contact-container:hover {
+  background-color: rgba(8, 100, 103, 0.5);
+  transition: background-color 0.8s;
+}
+
+
+.contact-info p {
+font-size: 2rem;
+margin-bottom: 35px;
+display: flex;
+color: rgb(13, 14, 13);
+letter-spacing: 1px;
+border-radius: 5px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+
+}
+
+.group {
+margin-bottom: 20px;
+}
+
+.group label {
+font-size: 1.2rem;
+display: block;
+margin-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.styles1{
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+font-size: 1rem;
+padding-top: 13px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.styles2{
+font-size: 2rem;
+display: block;
+margin-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.group input,
+.group textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+font-size: 1rem;
+}
+
+.submit-button {
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-family: 'Poppins', serif;
+}
+
+.submit-button:hover {
+background-color: #f39c12;
+transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footerContainer{
+  background-color: rgb(23, 21, 21);
+  width: 100%;
+  padding: 50px 30px 20px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em ;
+  color: rgb(33, 105, 25);
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color: rgb(6, 9, 0);
+  transition: 0.5s;
+}
+
+.socialIcons a i :hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+margin : 30px 0;
+}
+
+.footerNav ul {
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+
+.footerNav ul li a {
+color : white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity:0.7;
+transition: 0.5s;
+
+}
+
+.footerNav ul li a :hover{
+background-color: rgb(49, 67, 84);
+opacity: 1;
+animation: 0.5s;
+}
+
+.border{
+border: 2px solid transparent;
+}
+
+.border:hover{
+border: 2px solid rgb(241, 239, 239);
+border-color: aliceblue;
+}
+
+.footerBottom{
+background-color: black;
+padding: 20px;
+text-align: center;
+}
+
+.footerBottom P{
+  color: white;
+}
+
+.designer{
+opacity:0.7;
+font-size: 20px;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px;
+display: flex;
+justify-content: center;
+}
+
+.spacing{
+margin-left: 50px;
+}
